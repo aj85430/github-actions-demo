@@ -28,8 +28,3 @@ jobs:
 
       - name: Run Linter
         run: pylint my_app/
-
-      - name: Code Analysis
-        uses: <use some code analysis tool>
-     
-      - name: <further steps according to need>
